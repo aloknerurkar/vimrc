@@ -1,3 +1,15 @@
 [submodule "themes/vim-colorschemes"]
 	path = themes/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes
+[submodule "my_plugins/tagbar"]
+	path = my_plugins/tagbar
+	url = https://github.com/majutsushi/tagbar
+[submodule "my_plugins/vim-nerdtree-tabs"]
+	path = my_plugins/vim-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs
+[submodule "my_plugins/vim-easytags"]
+	path = my_plugins/vim-easytags
+	url = https://github.com/xolox/vim-easytags
+[submodule "my_plugins/vim-misc"]
+	path = my_plugins/vim-misc
+	url = https://github.com/xolox/vim-misc
