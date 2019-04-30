@@ -20,7 +20,8 @@ au FileType python map <buffer> <leader>D ?def
 au FileType python set cindent
 au FileType python set cinkeys-=0#
 au FileType python set indentkeys-=0#
-
+au FileType python setlocal expandtab
+au FileType python setlocal shiftwidth=3 tabstop=3
 
 """"""""""""""""""""""""""""""
 " => JavaScript section
