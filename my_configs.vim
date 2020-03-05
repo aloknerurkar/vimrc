@@ -127,8 +127,18 @@ colorscheme dracula
 au BufNewFile,BufRead *.tac,*.tin,*,itin setlocal expandtab
 au BufNewFile,BufRead *.tac,*.tin,*,itin setlocal shiftwidth=3 tabstop=3
 
-set list
-set listchars=tab:>-
+set list lcs=trail:·,tab:»·
+" set list
+" set listchars=tab:>-
+
+hi SpecialKey cterm=NONE ctermfg=darkgray ctermbg=NONE
+hi NonText ctermfg=darkgray
+hi VertSplit ctermfg=darkgray ctermbg=NONE
+
+hi ALEError cterm=underline ctermfg=red
+hi ALEErrorSign cterm=underline ctermfg=red
+hi ALEWarning cterm=underline ctermfg=yellow
+hi ALEWarningSign cterm=underline ctermfg=yellow
 
 set cc=85
 set number
