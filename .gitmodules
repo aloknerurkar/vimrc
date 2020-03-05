@@ -13,3 +13,6 @@
 [submodule "my_plugins/vim-misc"]
 	path = my_plugins/vim-misc
 	url = https://github.com/xolox/vim-misc
+[submodule "my_plugins/dracula"]
+	path = my_plugins/dracula
+	url = git@github.com:dracula/vim.git

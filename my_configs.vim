@@ -121,7 +121,7 @@ set history=999
 set completeopt=longest,menu
 
 set term=screen-256color
-colorscheme Tomorrow-Night-Eighties
+colorscheme dracula
 
 " Tacc
 au BufNewFile,BufRead *.tac,*.tin,*,itin setlocal expandtab
