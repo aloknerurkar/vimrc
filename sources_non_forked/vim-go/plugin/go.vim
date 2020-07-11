@@ -56,7 +56,7 @@ let s:packages = {
       \ 'gogetdoc':      ['github.com/zmb3/gogetdoc'],
       \ 'goimports':     ['golang.org/x/tools/cmd/goimports'],
       \ 'golint':        ['golang.org/x/lint/golint'],
-      \ 'gopls':         ['golang.org/x/tools/cmd/gopls'],
+      \ 'gopls':         ['golang.org/x/tools/gopls'],
       \ 'gometalinter':  ['github.com/alecthomas/gometalinter'],
       \ 'golangci-lint': ['github.com/golangci/golangci-lint/cmd/golangci-lint'],
       \ 'gomodifytags':  ['github.com/fatih/gomodifytags'],
