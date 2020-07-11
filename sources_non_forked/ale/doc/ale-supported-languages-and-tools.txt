@@ -14,6 +14,7 @@ Notes:
 
 * Ada
   * `gcc`
+  * `gnatpp`
 * Ansible
   * `ansible-lint`
 * API Blueprint
@@ -34,6 +35,8 @@ Notes:
   * `shell` (-n flag)
   * `shellcheck`
   * `shfmt`
+* Bats
+  * `shellcheck`
 * BibTeX
   * `bibclean`
 * Bourne Shell
@@ -53,6 +56,7 @@ Notes:
   * `gcc`
   * `uncrustify`
 * C#
+  * `csc`!!
   * `mcs`
   * `mcsc`!!
   * `uncrustify`
@@ -71,8 +75,10 @@ Notes:
   * `gcc`
   * `uncrustify`
 * Chef
+  * `cookstyle`
   * `foodcritic`
 * Clojure
+  * `clj-kondo`
   * `joker`
 * CloudFormation
   * `cfn-python-lint`
@@ -87,6 +93,7 @@ Notes:
   * `crystal`!!
 * CSS
   * `csslint`
+  * `fecs`
   * `prettier`
   * `stylelint`
 * Cucumber
@@ -98,6 +105,7 @@ Notes:
 * Cython (pyrex filetype)
   * `cython`
 * D
+  * `dfmt`
   * `dls`
   * `dmd`
   * `uncrustify`
@@ -118,7 +126,7 @@ Notes:
   * `mix`!!
 * Elm
   * `elm-format`
-  * `elm-lsp`
+  * `elm-ls`
   * `elm-make`
 * Erb
   * `erb`
@@ -152,9 +160,11 @@ Notes:
   * `golint`
   * `gometalinter`!!
   * `go mod`!!
+  * `gopls`
   * `gosimple`!!
   * `gotype`!!
   * `go vet`!!
+  * `revive`!!
   * `staticcheck`!!
 * GraphQL
   * `eslint`
@@ -171,11 +181,13 @@ Notes:
 * Haskell
   * `brittany`
   * `cabal-ghc`
+  * `floskell`
   * `ghc`
   * `ghc-mod`
   * `hdevtools`
   * `hfmt`
   * `hie`
+  * `hindent`
   * `hlint`
   * `stack-build`!!
   * `stack-ghc`
@@ -184,6 +196,8 @@ Notes:
   * `terraform-fmt`
 * HTML
   * `alex`!!
+  * `fecs`
+  * `html-beautify`
   * `HTMLHint`
   * `prettier`
   * `proselint`
@@ -191,10 +205,13 @@ Notes:
   * `write-good`
 * Idris
   * `idris`
+* Ink
+  * `ink-language-server`
 * ISPC
   * `ispc`!!
 * Java
   * `checkstyle`
+  * `eclipselsp`
   * `google-java-format`
   * `javac`
   * `javalsp`
@@ -202,6 +219,7 @@ Notes:
   * `uncrustify`
 * JavaScript
   * `eslint`
+  * `fecs`
   * `flow`
   * `jscs`
   * `jshint`
@@ -228,6 +246,7 @@ Notes:
   * `lacheck`
   * `proselint`
   * `redpen`
+  * `texlab`
   * `textlint`
   * `vale`
   * `write-good`
@@ -267,8 +286,11 @@ Notes:
   * `nasm`!!
 * Nim
   * `nim check`!!
+  * `nimlsp`
+  * `nimpretty`
 * nix
   * `nix-instantiate`
+  * `nixpkgs-fmt`
 * nroff
   * `alex`!!
   * `proselint`
@@ -285,6 +307,7 @@ Notes:
 * OCaml
   * `merlin` (see |ale-ocaml-merlin|)
   * `ocamlformat`
+  * `ocp-indent`
   * `ols`
 * Pawn
   * `uncrustify`
@@ -315,6 +338,9 @@ Notes:
   * `write-good`
 * Pony
   * `ponyc`
+* PowerShell
+  * `powershell`
+  * `psscriptanalyzer`
 * Prolog
   * `swipl`
 * proto
@@ -325,6 +351,9 @@ Notes:
   * `languageserver`
   * `puppet`
   * `puppet-lint`
+* PureScript
+  * `purescript-language-server`
+  * `purty`
 * Python
   * `autopep8`
   * `bandit`
@@ -335,10 +364,12 @@ Notes:
   * `prospector`
   * `pycodestyle`
   * `pydocstyle`
+  * `pyflakes`
   * `pylama`!!
   * `pylint`!!
   * `pyls`
   * `pyre`
+  * `reorder-python-imports`
   * `vulture`!!
   * `yapf`
 * QML
@@ -346,11 +377,13 @@ Notes:
   * `qmllint`
 * R
   * `lintr`
+  * `styler`
 * Racket
   * `raco`
 * ReasonML
   * `merlin`
   * `ols`
+  * `reason-language-server`
   * `refmt`
 * reStructuredText
   * `alex`!!
@@ -366,16 +399,19 @@ Notes:
   * `rpmlint`
 * Ruby
   * `brakeman`
+  * `debride`
   * `rails_best_practices`!!
   * `reek`
   * `rubocop`
   * `ruby`
   * `rufo`
   * `solargraph`
+  * `sorbet`
   * `standardrb`
 * Rust
   * `cargo`!!
   * `rls`
+  * `rust-analyzer`
   * `rustc` (see |ale-integration-rust|)
   * `rustfmt`
 * Sass
@@ -383,6 +419,7 @@ Notes:
   * `stylelint`
 * Scala
   * `fsc`
+  * `metals`
   * `sbtserver`
   * `scalac`
   * `scalafmt`
@@ -397,16 +434,20 @@ Notes:
 * SML
   * `smlnj`
 * Solidity
+  * `solc`
   * `solhint`
   * `solium`
 * SQL
+  * `pgformatter`
   * `sqlfmt`
+  * `sqlformat`
   * `sqlint`
 * Stylus
   * `stylelint`
 * SugarSS
   * `stylelint`
 * Swift
+  * `sourcekit-lsp`
   * `swiftformat`
   * `swiftlint`
 * Tcl
@@ -430,7 +471,9 @@ Notes:
   * `thrift`
 * TypeScript
   * `eslint`
+  * `fecs`
   * `prettier`
+  * `standard`
   * `tslint`
   * `tsserver`
   * `typecheck`
@@ -446,6 +489,7 @@ Notes:
   * `vcom`
   * `xvhdl`
 * Vim
+  * `vimls`
   * `vint`
 * Vim help^
   * `alex`!!
@@ -466,3 +510,5 @@ Notes:
   * `yamllint`
 * YANG
   * `yang-lsp`
+* Zig
+  * `zls`
