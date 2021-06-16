@@ -147,3 +147,8 @@ let g:ctrlp_prompt_mappings = {
     \ 'AcceptSelection("e")': ['<2-LeftMouse>'],
     \ 'AcceptSelection("t")': ['<cr>'],
     \ }
+
+" Go build on file save
+autocmd BufWritePre *.go :GoBuild
+
+let NERDTreeShowHidden=1
