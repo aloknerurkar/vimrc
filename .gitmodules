@@ -19,3 +19,12 @@
 [submodule "my_plugins/nerdtree-git-plugin"]
 	path = my_plugins/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin
+[submodule "my_plugins/vim-devicons"]
+	path = my_plugins/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule "my_plugins/nord-vim"]
+	path = my_plugins/nord-vim
+	url = https://github.com/arcticicestudio/nord-vim.git
+[submodule "my_plugins/vim-wakatime"]
+	path = my_plugins/vim-wakatime
+	url = https://github.com/wakatime/vim-wakatime
