@@ -16,3 +16,6 @@
 [submodule "my_plugins/dracula"]
 	path = my_plugins/dracula
 	url = git@github.com:dracula/vim.git
+[submodule "my_plugins/nerdtree-git-plugin"]
+	path = my_plugins/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin
